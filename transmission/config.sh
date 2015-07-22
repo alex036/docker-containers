@@ -1,9 +1,9 @@
 #!/bin/bash
 CONFIG="/config"
 
-if [[ ! -f $CONFIG/settings.json ]]; then
-  cp /tmp/settings.json $CONFIG/
-fi
+#if [[ ! -f $CONFIG/settings.json ]]; then
+#  cp /tmp/settings.json $CONFIG/
+#fi
 
 if [[ -n ${USERNAME} ]]; then
   echo "The username is: ${USERNAME}"
